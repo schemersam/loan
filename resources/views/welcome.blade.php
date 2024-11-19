@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Memorial Microfinance</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -94,10 +94,10 @@
                                         </div>
 
                                         <div class="pt-3 sm:pt-5 lg:pt-0">
-                                            <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
+                                            <h2 class="text-xl font-semibold text-black dark:text-white">About Us</h2>
 
                                             <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+                                                Memorial Microfinance is a non governmental organization that provides loans to both employed workers and bussiness man
                                             </p>
                                         </div>
                                     </div>
@@ -115,10 +115,10 @@
                                 </div>
 
                                 <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laracasts</h2>
+                                    <h2 class="text-xl font-semibold text-black dark:text-white">Management</h2>
 
                                     <p class="mt-4 text-sm/relaxed">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                        The company is led by professional team that has high level of expertise and experience when it comes to support you when stuck financially
                                     </p>
                                 </div>
 
