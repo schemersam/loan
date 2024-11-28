@@ -12,7 +12,8 @@
             <h1 class="text-2xl font-semibold mb-4 text-center">Welcome back to Memorial</h1>
 
             <form method="POST" action="{{ route('login') }}">
-                @csrf   
+                @csrf
+                
 
                 <div class="mb-4">
                     <label for="email" class="block text-gray-700 font-medium">Email</label>
