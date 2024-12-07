@@ -13,7 +13,19 @@
 
             <form method="POST" action="{{ route('login') }}">
                 @csrf
-                
+                @if ($errors->has('email') || ($errors->has('password')))
+                    <div class="bg-red-100 border border-red-400 text-red-800 px-4 py-4 rounded relative" role="alert">
+                        <ul>
+                            @if($errors->has('email'))
+                                <li>{{($errors->first('email'))}}</li>
+                            @endif
+
+                            @if($errors->has('password'))
+                                <li>{{($errors->first('password'))}}</li>
+                            @endif 
+                        </ul>
+                    </div>
+                @endif
 
                 <div class="mb-4">
                     <label for="email" class="block text-gray-700 font-medium">Email</label>
