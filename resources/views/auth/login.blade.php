@@ -42,7 +42,7 @@
                     <button type="submit" class="bg-blue-700 text-white py-2 px-4 rounded-md hover:bg-black-600 focus:outline-none focus:ring focus:ring-blue-200 focus:ring-opacity-50">Login</button>
                 </div>       
             </form>
-         <p class="mt-4 text-gray-600 text-sm text-center">New Client? <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Register Here</a></p>
+         <p class="mt-4 text-gray-600 text-sm text-center">New Client? <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Create Account</a></p>
         </div>
     </div>
 </body>
